@@ -1,0 +1,141 @@
+body {background-color: #E5E5E5;
+}
+header {
+    display: "inline-block";
+}
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 160%;
+    letter-spacing: -2%;
+    color: #0A1B32;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 37px;
+    }
+.logo-dot {
+    color: #33A2E0;
+    }
+.home, .about, .blog, .contact, .sign-in {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    }
+.home {
+    position: absolute;
+    max-width: 45px;
+    max-height: 24px;
+    margin-left: 273px;
+    margin-top: 48px;
+}
+.about {
+    position: absolute;
+    max-width: 45px;
+    max-height: 24px;
+    margin-left: 356px;
+    margin-top: 48px;
+}
+.blog {
+    position: absolute;
+    max-width: 33px;
+    max-height: 24px;
+    margin-left: 440px;
+    margin-top: 48px;
+}
+.contact {
+    position: absolute;
+    max-width: 58px;
+    max-height: 24px;
+    margin-left: 510px;
+    margin-top: 48px;
+}
+.sign-in {
+    position: absolute;
+    max-width: 51px;
+    max-height: 24px;
+    margin-left: 1321px;
+    margin-top: 48px;
+}
+.header-btn {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 1412px;
+    width: 120px;
+    height: 60px;
+    background-color: #33A2E0;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+main {
+    display:flex;
+    gap: 25px;
+}
+section {
+    display: inline-block;
+    }
+.main-left {
+    margin-left: 200px;
+    margin-top: 281px;
+    max-width: 584px;
+}
+.main-title {
+    margin-bottom: 0px;
+    max-height: 160px;
+    max-width: 495px;
+    width: 100%;
+    white-space: pre;
+    font-family: 'Ramaraja', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 106%;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    }
+.main-info {
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+    margin-top:10px;
+    }
+.main-btn {
+    width: 152px;
+    height: 63.82px;
+    background-color: #33A2E0;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 50px;
+    }
+.yoga-girl {
+    max-width: 796px;
+    max-height: 543px;
+    margin-top: 300px;
+}
