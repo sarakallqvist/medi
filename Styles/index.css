@@ -1,7 +1,7 @@
-body {background-color: #E5E5E5;
-}
 header {
-    display: "inline-block";
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
 }
 .logo {
     font-family: 'Montserrat', sans-serif;
@@ -11,14 +11,21 @@ header {
     line-height: 160%;
     letter-spacing: -2%;
     color: #0A1B32;
-    position: absolute;
     margin-left: 80px;
     margin-top: 37px;
     }
 .logo-dot {
     color: #33A2E0;
     }
-.home, .about, .blog, .contact, .sign-in {
+.topnav {
+    display:flex;
+    margin-top: 48px;
+    text-decoration: none;
+    }
+a {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 100px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -27,46 +34,11 @@ header {
     text-align: center;
     letter-spacing: 0.02em;
     color: #1B0A42;
-    }
-.home {
-    position: absolute;
-    max-width: 45px;
-    max-height: 24px;
-    margin-left: 273px;
-    margin-top: 48px;
-}
-.about {
-    position: absolute;
-    max-width: 45px;
-    max-height: 24px;
-    margin-left: 356px;
-    margin-top: 48px;
-}
-.blog {
-    position: absolute;
-    max-width: 33px;
-    max-height: 24px;
-    margin-left: 440px;
-    margin-top: 48px;
-}
-.contact {
-    position: absolute;
-    max-width: 58px;
-    max-height: 24px;
-    margin-left: 510px;
-    margin-top: 48px;
-}
-.sign-in {
-    position: absolute;
-    max-width: 51px;
-    max-height: 24px;
-    margin-left: 1321px;
-    margin-top: 48px;
+    text-decoration: none;
+    cursor: default;
 }
 .header-btn {
-    position: absolute;
     margin-top: 30px;
-    margin-left: 1412px;
     width: 120px;
     height: 60px;
     background-color: #33A2E0;
@@ -84,6 +56,7 @@ header {
 main {
     display:flex;
     gap: 25px;
+    width: 1600px;
 }
 section {
     display: inline-block;
